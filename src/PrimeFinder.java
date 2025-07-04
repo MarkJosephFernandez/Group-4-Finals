@@ -188,7 +188,7 @@ public class PrimeFinder extends JFrame {
                 return;
             }
 
-            // Show progress bar for large ranges
+            // Show progress bar for large rangesz
             if (end - start > 1000) {
                 progressBar.setVisible(true);
                 progressBar.setIndeterminate(true);
